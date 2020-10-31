@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QuizManager</string>
+    <string name="host_name"><u>Host Login</u></string>
+</resources>
