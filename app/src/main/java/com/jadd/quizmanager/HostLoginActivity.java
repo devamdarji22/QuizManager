@@ -23,19 +23,13 @@ public class HostLoginActivity extends AppCompatActivity {
         password = passwordField.getText().toString();
         loginButton = findViewById(R.id.login_button);
         signUpButton = findViewById(R.id.sign_up_button);
-        loginButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        loginButton.setOnClickListener(view -> {
 
-            }
         });
 
-        signUpButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(HostLoginActivity.this,SignUpActivity.class);
-                startActivity(i);
-            }
+        signUpButton.setOnClickListener(view -> {
+            Intent i = new Intent(HostLoginActivity.this,SignUpActivity.class);
+            startActivity(i);
         });
 
     }
