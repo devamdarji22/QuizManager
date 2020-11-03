@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizManager">
+
         <activity android:name=".QuizViewActivity"></activity>
         <activity
             android:name=".SignUpActivity"
